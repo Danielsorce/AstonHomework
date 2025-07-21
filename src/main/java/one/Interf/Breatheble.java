@@ -1,4 +1,4 @@
-package Interf;
+package one.Interf;
 
 public interface Breatheble {
     void breathe();

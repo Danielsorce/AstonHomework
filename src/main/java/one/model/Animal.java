@@ -1,4 +1,4 @@
-package model;
+package one.model;
 
 import lombok.RequiredArgsConstructor;
 

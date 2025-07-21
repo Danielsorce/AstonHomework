@@ -1,8 +1,8 @@
-package Iml;
+package one.Iml;
 
 import lombok.Getter;
-import model.Animal;
-import Interf.Aquatic;
+import one.model.Animal;
+import one.Interf.Aquatic;
 
 @Getter
 public abstract class Fish extends Animal implements Aquatic {

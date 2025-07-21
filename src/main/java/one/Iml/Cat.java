@@ -1,6 +1,6 @@
-package Iml;
+package one.Iml;
 
-import model.Mammal;
+import one.model.Mammal;
 
 public class Cat extends Mammal {
     public Cat() {
