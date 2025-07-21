@@ -14,6 +14,7 @@ public abstract class Whale extends Mammal implements Aquatic {
 
     @Override
     public void liveInWater() {
+        System.out.println("Живет в воде");
     }
     @Override
     public void eat() {

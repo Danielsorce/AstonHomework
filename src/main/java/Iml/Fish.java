@@ -14,6 +14,6 @@ public abstract class Fish extends Animal implements Aquatic {
 
     @Override
     public void liveInWater() {
-        System.out.printf("%s liveInWater(): %n", getName());
+        System.out.println("Живет в воде");
     }
 }
