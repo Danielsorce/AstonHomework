@@ -1,10 +1,15 @@
-package one.model;
+package one.Models;
 
-import lombok.RequiredArgsConstructor;
+import lombok.Getter;
 
-@RequiredArgsConstructor
 public abstract class Animal {
+    @Getter
     private final String name;
+
+    protected Animal(String name) {
+        this.name = name;
+    }
+
     private final boolean hasSpine = true;
 
     public abstract void eat();

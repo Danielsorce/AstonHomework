@@ -1,4 +1,4 @@
-package one.model;
+package one.Models;
 
 public abstract class Mammal extends Animal {
 
